@@ -106,7 +106,7 @@
                                }
                            }
                         ?>
-                        <p class="card-text">$<?php echo !isset($total) ? 0 : $total ?></p>
+                        <p class="card-text"><?php echo !isset($total) ? 0 : $total ?>BDT</p>
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                                 }
                             }
                         ?>
-                        <p class="card-text">$<?php echo $total == 0 ? 0 : $remaining ?></p>
+                        <p class="card-text"><?php echo $total == 0 ? 0 : $remaining ?>BDT</p>
                     </div>
                 </div>
             </div>
@@ -261,7 +261,7 @@
                             <p class="fw-bold mb-1">Food</p>
                         </td>
                         <td>
-                            <p class="fw-bold mb-1">$<?php echo isset($foodTotalAmount) ? $foodTotalAmount : 0 ?></p>
+                            <p class="fw-bold mb-1"><?php echo isset($foodTotalAmount) ? $foodTotalAmount : 0 ?>BDT</p>
                         </td>
                         <td>
                             <button style="fill: white" type="button" class="btn btn-danger btn-rounded" data-bs-toggle="modal" data-bs-target="#deleteModal">
@@ -304,7 +304,7 @@
                                 <p class="fw-bold mb-1">Electronics</p>
                             </td>
                             <td>
-                                <p class="fw-bold mb-1">$<?php echo isset($electronicsTotalAmount) ? $electronicsTotalAmount : 0 ?></p>
+                                <p class="fw-bold mb-1"><?php echo isset($electronicsTotalAmount) ? $electronicsTotalAmount : 0 ?>BDT</p>
                             </td>
                             <td>
                                 <button style="fill: white" type="button" class="btn btn-danger btn-rounded" data-bs-toggle="modal" data-bs-target="#deleteModal2">
@@ -347,7 +347,7 @@
                                 <p class="fw-bold mb-1">Travel</p>
                             </td>
                             <td>
-                                <p class="fw-bold mb-1">$<?php echo isset($travelTotalAmount) ? $travelTotalAmount : 0 ?></p>
+                                <p class="fw-bold mb-1"><?php echo isset($travelTotalAmount) ? $travelTotalAmount : 0 ?>BDT</p>
                             </td>
                             <td>
                                 <button style="fill: white" type="button" class="btn btn-danger btn-rounded" data-bs-toggle="modal" data-bs-target="#deleteModal3">
@@ -390,7 +390,7 @@
                                     <p class="fw-bold mb-1">Medical</p>
                                 </td>
                                 <td>
-                                    <p class="fw-bold mb-1">$<?php echo isset($medicalTotalAmount) ? $medicalTotalAmount : 0 ?></p>
+                                    <p class="fw-bold mb-1"><?php echo isset($medicalTotalAmount) ? $medicalTotalAmount : 0 ?>BDT</p>
                                 </td>
                                 <td>
                                     <button style="fill: white" type="button" class="btn btn-danger btn-rounded" data-bs-toggle="modal" data-bs-target="#deleteModal4">
@@ -433,7 +433,7 @@
                                         <p class="fw-bold mb-1">Bills</p>
                                     </td>
                                     <td>
-                                        <p class="fw-bold mb-1">$<?php echo isset($billsTotalAmount) ? $billsTotalAmount : 0; ?></p>
+                                        <p class="fw-bold mb-1"><?php echo isset($billsTotalAmount) ? $billsTotalAmount : 0; ?>BDT</p>
                                     </td>
                                     <td>
                                         <button style="fill: white" type="button" class="btn btn-danger btn-rounded" data-bs-toggle="modal" data-bs-target="#deleteModal5">
