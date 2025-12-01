@@ -1,0 +1,62 @@
+/*user dashboard styles starting*/
+.filter-btn {
+    margin-top: 27px;
+}
+
+.icon {
+    width: 30px;
+}
+
+.card-total-bg {
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-rm-bg {
+    background: linear-gradient(to right, #00b09b, #96c93d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-tr-bg {
+    background: linear-gradient(to right, #c0c0aa, #1cefff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.table-header-icons {
+    height: 50px;
+    width: 30px;
+}
+
+.card-text {
+    color: white;
+}
+/*user dashboard styles ends*/
+
+/*user profile page styles starting*/
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-card {
+    background: linear-gradient(to right, #74ebd5, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pay-btn {
+    background: linear-gradient(90deg, #6772e5, #5469d4);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 12px 30px;
+    transition: all 0.3s ease;
+}
+.pay-btn:hover {
+    background: linear-gradient(90deg, #5469d4, #6772e5);
+    transform: scale(1.05);
+    color: white;
+}
+
+/*user profile page styles ends*/
+
+/*Styles related to ui changes to user signup and login*/
+.display {
+    display: none;
+}
+/*Styles related to ui changes to user signup and login ends*/
